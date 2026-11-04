@@ -4,3 +4,36 @@
     box-sizing: border-box;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+nav img {
+    height: 30px;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    margin-right: 5rem;
+}
+
+ul li {
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color: inherit;
+ }
